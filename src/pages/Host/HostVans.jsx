@@ -45,12 +45,12 @@ const HostVans = () => {
   });
 
   return (
-    <>
-      <h1 className="my-4">Your listed vans</h1>
+    <div className="my-8">
+      <h1 className="my-4 text-3xl font-bold">Your listed vans</h1>
       <div className="flex flex-col gap-4 mb-4">
         {vans?.length ? vansElements : <div>No Vans</div>}
       </div>
-    </>
+    </div>
   );
 };
 

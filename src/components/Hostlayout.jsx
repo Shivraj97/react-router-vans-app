@@ -5,7 +5,7 @@ const Hostlayout = () => {
     <div className="px-4 md:px-20">
       <div className="flex gap-4 md:gap-8">
         <NavLink
-          to="/host"
+          to="."
           end
           className={({ isActive }) =>
             isActive
@@ -16,7 +16,7 @@ const Hostlayout = () => {
           Dashboard
         </NavLink>
         <NavLink
-          to="/host/income"
+          to="income"
           className={({ isActive }) =>
             isActive
               ? "text-[#E17654] font-bold underline"
@@ -26,7 +26,7 @@ const Hostlayout = () => {
           Income
         </NavLink>
         <NavLink
-          to="/host/vans"
+          to="vans"
           className={({ isActive }) =>
             isActive
               ? "text-[#E17654] font-bold underline"
@@ -36,7 +36,7 @@ const Hostlayout = () => {
           Vans
         </NavLink>
         <NavLink
-          to="/host/reviews"
+          to="reviews"
           className={({ isActive }) =>
             isActive
               ? "text-[#E17654] font-bold underline"
